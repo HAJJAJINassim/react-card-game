@@ -1,0 +1,37 @@
+.main {
+    background-color: #9b59b6;
+    height: 100vh;
+    position: relative;
+}
+
+.panel {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.panel-username {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #74b9ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.panel-start {
+    width: 100%;
+  background-color: #ecf0f1;
+  color: #9b59b6;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.panel-start:hover {
+    background-color: #74b9ff;
+    color: white;
+  }
