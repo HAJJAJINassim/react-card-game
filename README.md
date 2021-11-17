@@ -2,7 +2,7 @@
 
 assuming you have docker and docker-compose installed, You have to be positionned on the same directory as docker-compose file and run: 
 
-`docker-compose up --build`
+`docker-compose up -d --build`
 
 this will command will run frontend and backend and mongo containers.
 
